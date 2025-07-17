@@ -1,41 +1,35 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AUTO MALL - 바카라 자동 프로그램 백화점</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #000;
-            color: #fff;
-            font-family: 'Pretendard', sans-serif;
-            text-align: center;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-        .cta {
-            background-color: gold;
-            color: #000;
-            padding: 15px 30px;
-            font-size: 1.2rem;
-            font-weight: bold;
-            border-radius: 10px;
-            display: inline-block;
-            margin: 30px auto;
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AUTO MALL - 바카라 자동 프로그램 백화점</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Pretendard', sans-serif;
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
 </head>
 <body>
-   <a href="https://t.me/atmall1" target="_blank">
-    <img src="main_image.png" alt="AUTO MALL 랜딩페이지">
-</a>
+  <!-- ✅ 이미지 맵 연결 -->
+  <img src="main_image.png" alt="AUTO MALL 랜딩페이지" usemap="#telegramMap" />
+
+  <!-- ✅ 텔레그램 링크가 걸릴 좌표 영역 -->
+  <map name="telegramMap">
+    <!-- shape: 사각형 / coords: x1,y1,x2,y2 -->
+    <!-- 아래 좌표는 예시입니다. 직접 맞춰야 정확합니다 -->
+    <area shape="rect" coords="0,3000,1080,3600" href="https://t.me/atmall1" target="_blank" alt="텔레그램 문의" />
+  </map>
 </body>
 </html>
